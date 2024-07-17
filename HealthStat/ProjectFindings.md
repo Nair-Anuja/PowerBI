@@ -49,5 +49,3 @@ By focusing on these areas, hospitals can reduce how long patients stay and how 
 
 
 
-
-
