@@ -1,0 +1,424 @@
+{
+  "config": "{\"version\":\"5.56\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY24SU06\",\"version\":\"5.56\",\"type\":2},\"customTheme\":{\"name\":\"Custom34908032770654507.json\",\"version\":\"5.56\",\"type\":1}},\"activeSectionIndex\":0,\"defaultDrillFilterOtherVisuals\":true,\"linguisticSchemaSyncVersion\":2,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true,\"useEnhancedTooltips\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}],\"outspacePane\":[{\"properties\":{\"expanded\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}",
+  "layoutOptimization": 0,
+  "pods": [
+    {
+      "boundSection": "7f1b88586ace516d0597",
+      "config": "{}",
+      "name": "1d8215a9f33db07cd50e",
+      "parameters": "[{\"name\":\"Param_Filter905793bce898e75d064b\",\"boundFilter\":\"Filter905793bce898e75d064b\",\"fieldExpr\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"goodreads_works\"}},\"Property\":\"work_id\"}}}]",
+      "type": 2
+    },
+    {
+      "boundSection": "2178f0537894b36af445",
+      "config": "{}",
+      "name": "8b587a96569f0112d1f3",
+      "parameters": "[{\"name\":\"Param_Filterf65082b2ae45cd24fbe7\",\"boundFilter\":\"Filterf65082b2ae45cd24fbe7\",\"fieldExpr\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"goodreads_works\"}},\"Property\":\"work_id\"}}}]",
+      "referenceScope": 1,
+      "type": 1
+    }
+  ],
+  "publicCustomVisuals": [
+    "simpleImageEBC4593F96F1425FB3D84C5BF02B5075",
+    "textSearchSlicerF85E2E78BE4A4D7D9F99ED75B5D71C85"
+  ],
+  "resourcePackages": [
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "Book_Home3399197462713054.png",
+            "path": "Book_Home3399197462713054.png",
+            "type": 100
+          },
+          {
+            "name": "Custom34908032770654507.json",
+            "path": "Custom34908032770654507.json",
+            "type": 201
+          },
+          {
+            "name": "Facts1549778269996085.png",
+            "path": "Facts1549778269996085.png",
+            "type": 100
+          },
+          {
+            "name": "Facts2008003211812735667.png",
+            "path": "Facts2008003211812735667.png",
+            "type": 100
+          },
+          {
+            "name": "Facts4170670820316429.png",
+            "path": "Facts4170670820316429.png",
+            "type": 100
+          },
+          {
+            "name": "Facts4476847605182471.png",
+            "path": "Facts4476847605182471.png",
+            "type": 100
+          },
+          {
+            "name": "Facts6211377439330731.png",
+            "path": "Facts6211377439330731.png",
+            "type": 100
+          },
+          {
+            "name": "Picture230893707362593104.png",
+            "path": "Picture230893707362593104.png",
+            "type": 100
+          },
+          {
+            "name": "cursor7388722659061272.png",
+            "path": "cursor7388722659061272.png",
+            "type": 100
+          }
+        ],
+        "name": "RegisteredResources",
+        "type": 1
+      }
+    },
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "CY24SU06",
+            "path": "BaseThemes/CY24SU06.json",
+            "type": 202
+          }
+        ],
+        "name": "SharedResources",
+        "type": 2
+      }
+    }
+  ],
+  "sections": [
+    {
+      "config": "{\"visibility\":1}",
+      "displayName": "Similar books",
+      "displayOption": 1,
+      "filters": "[{\"name\":\"Filterf65082b2ae45cd24fbe7\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"goodreads_works\"}},\"Property\":\"work_id\"}},\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"g\",\"Entity\":\"goodreads_works\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"g\"}},\"Property\":\"work_id\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'1952109'\"}}]]}}}]},\"type\":\"Categorical\",\"howCreated\":5}]",
+      "height": 720.00,
+      "name": "2178f0537894b36af445",
+      "ordinal": 1,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"488cc3ad1f75bf86273a\",\"layouts\":[{\"id\":0,\"position\":{\"x\":49.6048632218845,\"y\":57.38601823708207,\"z\":2000,\"width\":138.11550151975683,\"height\":200.3647416413374,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"simpleImageEBC4593F96F1425FB3D84C5BF02B5075\",\"projections\":{\"imageURL\":[{\"queryRef\":\"goodreads_works.image_url\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"g\",\"Entity\":\"goodreads_works\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"g\"}},\"Property\":\"image_url\"},\"Name\":\"goodreads_works.image_url\",\"NativeReferenceName\":\"image_url\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 200.36,
+          "width": 138.12,
+          "x": 49.60,
+          "y": 57.39,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"4f903f9323f47b3b6edc\",\"layouts\":[{\"id\":0,\"position\":{\"x\":534.9544072948329,\"y\":57.38601823708207,\"z\":1000,\"width\":714.8936170212767,\"height\":200.3647416413374,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"SimilarBooks.Title\"},{\"queryRef\":\"SimilarBooks.Author\"},{\"queryRef\":\"SimilarBooks.AverageRatings\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"s\",\"Entity\":\"SimilarBooks\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Author\"},\"Name\":\"SimilarBooks.Author\",\"NativeReferenceName\":\"Author\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"AverageRatings\"},\"Name\":\"SimilarBooks.AverageRatings\",\"NativeReferenceName\":\"AverageRatings\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"original_title\"},\"Name\":\"SimilarBooks.Title\",\"NativeReferenceName\":\"Title\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"original_title\"}}}]},\"columnProperties\":{\"SimilarBooks.Title\":{\"displayName\":\"Title\"}},\"drillFilterOtherVisuals\":true,\"objects\":{\"grid\":[{\"properties\":{\"outlineColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#fe5f55'\"}}}}}}}],\"columnWidth\":[{\"properties\":{\"value\":{\"expr\":{\"Literal\":{\"Value\":\"188.56532939115453D\"}}}},\"selector\":{\"metadata\":\"SimilarBooks.AverageRatings\"}},{\"properties\":{\"value\":{\"expr\":{\"Literal\":{\"Value\":\"240.08429138007557D\"}}}},\"selector\":{\"metadata\":\"SimilarBooks.Author\"}},{\"properties\":{\"value\":{\"expr\":{\"Literal\":{\"Value\":\"265.2032925666416D\"}}}},\"selector\":{\"metadata\":\"SimilarBooks.Title\"}}],\"columnFormatting\":[{\"properties\":{\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Center'\"}}},\"styleHeader\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}},\"selector\":{\"metadata\":\"SimilarBooks.AverageRatings\"}},{\"properties\":{\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Left'\"}}},\"styleHeader\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}},\"selector\":{\"metadata\":\"SimilarBooks.Author\"}},{\"properties\":{\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Left'\"}}}},\"selector\":{\"metadata\":\"SimilarBooks.Title\"}}]},\"vcObjects\":{\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.3}}}}},\"width\":{\"expr\":{\"Literal\":{\"Value\":\"1D\"}}}}}],\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"titleWrap\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Cambria'\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Books you might like ....'\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":-0.25}}}}}}}],\"subTitle\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"divider\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}]}}}",
+          "filters": "[{\"name\":\"Filterd5137a5303b981f7d241\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"SimilarBooks\"}},\"Property\":\"original_title\"}},\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"s\",\"Entity\":\"SimilarBooks\",\"Type\":0}],\"Where\":[{\"Condition\":{\"Not\":{\"Expression\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"original_title\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"null\"}}]]}}}}}]},\"type\":\"Categorical\",\"howCreated\":0,\"objects\":{\"general\":[{\"properties\":{\"isInvertedSelectionMode\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"isHiddenInViewMode\":false}]",
+          "height": 200.36,
+          "width": 714.89,
+          "x": 534.95,
+          "y": 57.39,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"7fef50ea98d5be786085\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":0,\"width\":100,\"height\":40,\"z\":0,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"actionButton\",\"drillFilterOtherVisuals\":true,\"objects\":{\"icon\":[{\"properties\":{\"shapeType\":{\"expr\":{\"Literal\":{\"Value\":\"'back'\"}}}},\"selector\":{\"id\":\"default\"}}]},\"vcObjects\":{\"visualLink\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"type\":{\"expr\":{\"Literal\":{\"Value\":\"'Back'\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 40.00,
+          "width": 100.00,
+          "x": 0.00,
+          "y": 0.00,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"8f8b733595b94fe7b1ca\",\"layouts\":[{\"id\":0,\"position\":{\"x\":187.72036474164133,\"y\":57.38601823708207,\"z\":4000,\"width\":334.58966565349544,\"height\":200.3647416413374,\"tabOrder\":4000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"_Measures.Book Details\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"_\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Book Details\"},\"Name\":\"_Measures.Book Details\",\"NativeReferenceName\":\"Book Details\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"labels\":[{\"properties\":{\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Cambria'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"12D\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":3,\"Percent\":-0.25}}}}}}}],\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.3}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 200.36,
+          "width": 334.59,
+          "x": 187.72,
+          "y": 57.39,
+          "z": 4000.00
+        },
+        {
+          "config": "{\"name\":\"c5f0a891a5a3c8d44fda\",\"layouts\":[{\"id\":0,\"position\":{\"x\":49.6048632218845,\"y\":419.209726443769,\"z\":3000,\"width\":1200.243161094225,\"height\":277.2036474164134,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"goodreads_reviews.date_added\"},{\"queryRef\":\"Sum(goodreads_reviews.rating)\"},{\"queryRef\":\"goodreads_reviews.review_text\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"g\",\"Entity\":\"goodreads_reviews\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"g\"}},\"Property\":\"date_added\"},\"Name\":\"goodreads_reviews.date_added\",\"NativeReferenceName\":\"Review Date\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"g\"}},\"Property\":\"review_text\"},\"Name\":\"goodreads_reviews.review_text\",\"NativeReferenceName\":\"Review\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"g\"}},\"Property\":\"rating\"},\"Name\":\"Sum(goodreads_reviews.rating)\",\"NativeReferenceName\":\"rating\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"g\"}},\"Property\":\"review_text\"}}}]},\"columnProperties\":{\"goodreads_reviews.date_added\":{\"displayName\":\"Review Date\"},\"goodreads_reviews.review_text\":{\"displayName\":\"Review\"}},\"drillFilterOtherVisuals\":true,\"objects\":{\"grid\":[{\"properties\":{\"outlineColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#fe5f55'\"}}}}}}}],\"columnFormatting\":[{\"properties\":{\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Left'\"}}}},\"selector\":{\"metadata\":\"SimilarBooks.AverageRatings\"}},{\"properties\":{\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Left'\"}}}},\"selector\":{\"metadata\":\"SimilarBooks.Author\"}},{\"properties\":{\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Left'\"}}}},\"selector\":{\"metadata\":\"SimilarBooks.Title\"}},{\"properties\":{\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Center'\"}}}},\"selector\":{\"metadata\":\"Sum(goodreads_reviews.rating)\"}}],\"columnWidth\":[{\"properties\":{\"value\":{\"expr\":{\"Literal\":{\"Value\":\"188.56532939115453D\"}}}},\"selector\":{\"metadata\":\"SimilarBooks.AverageRatings\"}},{\"properties\":{\"value\":{\"expr\":{\"Literal\":{\"Value\":\"136.90155704796837D\"}}}},\"selector\":{\"metadata\":\"SimilarBooks.Author\"}},{\"properties\":{\"value\":{\"expr\":{\"Literal\":{\"Value\":\"165.0304006070279D\"}}}},\"selector\":{\"metadata\":\"SimilarBooks.Title\"}}]},\"vcObjects\":{\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.3}}}}},\"width\":{\"expr\":{\"Literal\":{\"Value\":\"1D\"}}}}}],\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'What are readers saying .....'\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"titleWrap\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":-0.25}}}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Cambria'\"}}}}}],\"subTitle\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"divider\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 277.20,
+          "width": 1200.24,
+          "x": 49.60,
+          "y": 419.21,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"d3771ea0d57960cadcda\",\"layouts\":[{\"id\":0,\"position\":{\"x\":49.6048632218845,\"y\":266.5045592705167,\"z\":5000,\"width\":1200.243161094225,\"height\":126.44376899696049,\"tabOrder\":5000}}],\"singleVisual\":{\"visualType\":\"aiNarratives\",\"drillFilterOtherVisuals\":true,\"objects\":{\"narrativeSelection\":[{\"properties\":{\"dismissSelectionScreen\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"userPrompt\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Summarize the reviews\\n'\"}}},\"selectedVisualsJson\":{\"expr\":{\"Literal\":{\"Value\":\"'{\\\"isEntireReportSelected\\\":false,\\\"sections\\\":{\\\"2178f0537894b36af445\\\":{\\\"isEntireSectionSelected\\\":true}}}'\"}}},\"useAllVisuals\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Cambria'\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Summarized review'\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.3}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 126.44,
+          "width": 1200.24,
+          "x": 49.60,
+          "y": 266.50,
+          "z": 5000.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{}",
+      "displayName": "DiscoveryourRead",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "4df60ab1b2a0e9ac30b0",
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"257666bf5121e036a706\",\"layouts\":[{\"id\":0,\"position\":{\"x\":12.644376899696049,\"y\":383.2218844984803,\"z\":4000,\"width\":197.4468085106383,\"height\":70.03039513677813,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"goodreads_works.original_publication_year\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"g\",\"Entity\":\"goodreads_works\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"g\"}},\"Property\":\"original_publication_year\"},\"Name\":\"goodreads_works.original_publication_year\",\"NativeReferenceName\":\"original_publication_year\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Between'\"}}}}}],\"header\":[{\"properties\":{\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Cambria'\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":3,\"Percent\":0}}}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Original Publication Year'\"}}}}}],\"items\":[{\"properties\":{\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Cambria'\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":3,\"Percent\":-0.5}}}}}}}],\"general\":[{\"properties\":{}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"titleWrap\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}],\"border\":[{\"properties\":{\"width\":{\"expr\":{\"Literal\":{\"Value\":\"1D\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.2}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 70.03,
+          "width": 197.45,
+          "x": 12.64,
+          "y": 383.22,
+          "z": 4000.00
+        },
+        {
+          "config": "{\"name\":\"3036842f8dac9042c657\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":0,\"z\":0,\"width\":1280,\"height\":78.78419452887539,\"tabOrder\":6000}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'rectangle'\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#415673'\"}}}}}},\"selector\":{\"id\":\"default\"}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 78.78,
+          "width": 1280.00,
+          "x": 0.00,
+          "y": 0.00,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"402be2c8d1056b78c9f3\",\"layouts\":[{\"id\":0,\"position\":{\"x\":12.644376899696049,\"y\":286.93009118541033,\"z\":3000,\"width\":197.4468085106383,\"height\":80.72948328267478,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"goodreads_works.num_pages\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"g\",\"Entity\":\"goodreads_works\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"g\"}},\"Property\":\"num_pages\"},\"Name\":\"goodreads_works.num_pages\",\"NativeReferenceName\":\"num_pages\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Before'\"}}}}}],\"header\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Number of Pages'\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Cambria'\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":3,\"Percent\":0}}}}},\"textSize\":{\"expr\":{\"Literal\":{\"Value\":\"16D\"}}}}}],\"items\":[{\"properties\":{\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Cambria'\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":3,\"Percent\":-0.5}}}}}}}],\"general\":[{\"properties\":{\"orientation\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"titleWrap\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}],\"border\":[{\"properties\":{\"width\":{\"expr\":{\"Literal\":{\"Value\":\"1D\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.2}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 80.73,
+          "width": 197.45,
+          "x": 12.64,
+          "y": 286.93,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"405a1ac6eddfc6994bd1\",\"layouts\":[{\"id\":0,\"position\":{\"x\":251.04166666666669,\"y\":108.33333333333334,\"z\":6000,\"width\":1013.5416666666667,\"height\":544.7916666666667,\"tabOrder\":5000}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"goodreads_works.image_url\"},{\"queryRef\":\"goodreads_works.BookDetails\"},{\"queryRef\":\"_Measures.Star Rating\"},{\"queryRef\":\"goodreads_works.work_id\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"g\",\"Entity\":\"goodreads_works\",\"Type\":0},{\"Name\":\"_\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Book Details\"},\"Name\":\"goodreads_works.BookDetails\",\"NativeReferenceName\":\"  \"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"g\"}},\"Property\":\"image_url\"},\"Name\":\"goodreads_works.image_url\",\"NativeReferenceName\":\" \"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Star Rating\"},\"Name\":\"_Measures.Star Rating\",\"NativeReferenceName\":\" 2\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"g\"}},\"Property\":\"work_id\"},\"Name\":\"goodreads_works.work_id\",\"NativeReferenceName\":\" 1\"}]},\"columnProperties\":{\"goodreads_works.image_url\":{\"displayName\":\" \"},\"goodreads_works.work_id\":{\"displayName\":\" \"},\"goodreads_works.BookDetails\":{\"displayName\":\"  \"},\"_Measures.Star Rating\":{\"displayName\":\" \"}},\"drillFilterOtherVisuals\":true,\"objects\":{\"total\":[{\"properties\":{\"totals\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"columnFormatting\":[{\"properties\":{\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}},\"selector\":{\"metadata\":\"goodreads_works.work_id\"}}],\"grid\":[{\"properties\":{\"imageHeight\":{\"expr\":{\"Literal\":{\"Value\":\"156D\"}}},\"outlineColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":6,\"Percent\":0}}}}}}}]},\"vcObjects\":{\"stylePreset\":[{\"properties\":{\"name\":{\"expr\":{\"Literal\":{\"Value\":\"'Minimal'\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":3,\"Percent\":0}}}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}],\"dropShadow\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.3}}}}}}}],\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Cambria'\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Catalog'\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":6,\"Percent\":0.2}}}}},\"background\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#415673'\"}}}}}}}],\"visualTooltip\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"section\":{\"expr\":{\"Literal\":{\"Value\":\"'7f1b88586ace516d0597'\"}}}}}]}}}",
+          "filters": "[{\"name\":\"Filtered57522f7c3ee12196d2\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"goodreads_works\"}},\"Property\":\"image_url\"}},\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"g\",\"Entity\":\"goodreads_works\",\"Type\":0}],\"Where\":[{\"Condition\":{\"Not\":{\"Expression\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"g\"}},\"Property\":\"image_url\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"null\"}}]]}}}}}]},\"type\":\"Categorical\",\"howCreated\":0,\"objects\":{\"general\":[{\"properties\":{\"isInvertedSelectionMode\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"isHiddenInViewMode\":false},{\"name\":\"Filter180cbb4ab1b51bf74d6e\",\"expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"_Measures\"}},\"Property\":\"FilteredByGenre\"}},\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"_\",\"Entity\":\"_Measures\",\"Type\":0}],\"Where\":[{\"Condition\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"FilteredByGenre\"}},\"Right\":{\"Literal\":{\"Value\":\"1L\"}}}}}]},\"type\":\"Advanced\",\"howCreated\":1}]",
+          "height": 544.79,
+          "width": 1013.54,
+          "x": 251.04,
+          "y": 108.33,
+          "z": 6000.00
+        },
+        {
+          "config": "{\"name\":\"4451222d2fe43c9d5180\",\"layouts\":[{\"id\":0,\"position\":{\"x\":12.644376899696049,\"y\":107.96352583586626,\"z\":10000,\"width\":197.4468085106383,\"height\":49.6048632218845,\"tabOrder\":10000}}],\"singleVisual\":{\"visualType\":\"actionButton\",\"drillFilterOtherVisuals\":true,\"objects\":{\"icon\":[{\"properties\":{\"shapeType\":{\"expr\":{\"Literal\":{\"Value\":\"'clearAllSlicers'\"}}}},\"selector\":{\"id\":\"default\"}},{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"text\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}},{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Clear all slicers'\"}}},\"horizontalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}}},\"selector\":{\"id\":\"default\"}},{\"properties\":{\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Cambria'\"}}}},\"selector\":{\"id\":\"hover\"}}],\"outline\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}},{\"properties\":{\"weight\":{\"expr\":{\"Literal\":{\"Value\":\"1D\"}}}},\"selector\":{\"id\":\"hover\"}}]},\"vcObjects\":{\"visualLink\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"type\":{\"expr\":{\"Literal\":{\"Value\":\"'ClearAllSlicers'\"}}},\"tooltipPlaceholderText\":{\"expr\":{\"Literal\":{\"Value\":\"'Clear all slicers on this page'\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.2}}}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 49.60,
+          "width": 197.45,
+          "x": 12.64,
+          "y": 107.96,
+          "z": 10000.00
+        },
+        {
+          "config": "{\"name\":\"568ba08b15c563b6f126\",\"layouts\":[{\"id\":0,\"position\":{\"x\":12.644376899696049,\"y\":563.161094224924,\"z\":5000,\"width\":197.4468085106383,\"height\":74.8936170212766,\"tabOrder\":4000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"goodreads_works.avg_rating\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"g\",\"Entity\":\"goodreads_works\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"g\"}},\"Property\":\"avg_rating\"},\"Name\":\"goodreads_works.avg_rating\",\"NativeReferenceName\":\"avg_rating\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Between'\"}}}}}],\"general\":[{\"properties\":{}}],\"header\":[{\"properties\":{\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Cambria'\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":3,\"Percent\":0}}}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Rating '\"}}}}}],\"items\":[{\"properties\":{\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Cambria'\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":3,\"Percent\":-0.5}}}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"titleWrap\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}],\"border\":[{\"properties\":{\"width\":{\"expr\":{\"Literal\":{\"Value\":\"1D\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.2}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 74.89,
+          "width": 197.45,
+          "x": 12.64,
+          "y": 563.16,
+          "z": 5000.00
+        },
+        {
+          "config": "{\"name\":\"6334a5b3b6d14dd51aad\",\"layouts\":[{\"id\":0,\"position\":{\"x\":273.3130699088146,\"y\":18.480243161094226,\"z\":7000,\"width\":251.91489361702128,\"height\":62.24924012158055,\"tabOrder\":7000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Discover your latest read\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontFamily\":\"Cambria\",\"fontSize\":\"14pt\",\"color\":\"#fe7f77\"}}]}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 62.25,
+          "width": 251.91,
+          "x": 273.31,
+          "y": 18.48,
+          "z": 7000.00
+        },
+        {
+          "config": "{\"name\":\"66892c993c286d92a97f\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1201.0416666666667,\"y\":653.125,\"z\":9000,\"width\":63.54166666666667,\"height\":58.333333333333336,\"tabOrder\":9000}}],\"singleVisual\":{\"visualType\":\"actionButton\",\"drillFilterOtherVisuals\":true,\"objects\":{\"icon\":[{\"properties\":{\"shapeType\":{\"expr\":{\"Literal\":{\"Value\":\"'blank'\"}}}},\"selector\":{\"id\":\"default\"}},{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"fill\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}},{\"properties\":{\"image\":{\"image\":{\"name\":{\"expr\":{\"Literal\":{\"Value\":\"'Facts.png'\"}}},\"url\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"Facts4476847605182471.png\"}}},\"scaling\":{\"expr\":{\"Literal\":{\"Value\":\"'Fit'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}},\"selector\":{\"id\":\"default\"}},{\"properties\":{\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"image\":{\"image\":{\"name\":{\"expr\":{\"Literal\":{\"Value\":\"'Facts.png'\"}}},\"url\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"Facts6211377439330731.png\"}}},\"scaling\":{\"expr\":{\"Literal\":{\"Value\":\"'Fit'\"}}}}}},\"selector\":{\"id\":\"hover\"}}],\"outline\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"visualLink\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"type\":{\"expr\":{\"Literal\":{\"Value\":\"'Drillthrough'\"}}},\"navigationSection\":{\"expr\":{\"Literal\":{\"Value\":\"'dba0cf7e19c30eeb60e1'\"}}},\"tooltip\":{\"expr\":{\"Literal\":{\"Value\":\"'Learn some fun facts!'\"}}},\"drillthroughSection\":{\"expr\":{\"Literal\":{\"Value\":\"'2178f0537894b36af445'\"}}},\"enabledTooltip\":{\"expr\":{\"Literal\":{\"Value\":\"'Select a book and click to view more details!'\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 58.33,
+          "width": 63.54,
+          "x": 1201.04,
+          "y": 653.13,
+          "z": 9000.00
+        },
+        {
+          "config": "{\"name\":\"7a9a111cc958185dcf25\",\"layouts\":[{\"id\":0,\"position\":{\"x\":832.5835866261399,\"y\":10.699088145896656,\"z\":8000,\"width\":126.44376899696049,\"height\":57.38601823708207,\"tabOrder\":8000}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"Picture230893707362593104.png\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 57.39,
+          "width": 126.44,
+          "x": 832.58,
+          "y": 10.70,
+          "z": 8000.00
+        },
+        {
+          "config": "{\"name\":\"8f3cd59c453ab050345d\",\"layouts\":[{\"id\":0,\"position\":{\"x\":92.70833333333334,\"y\":681.25,\"z\":12000,\"width\":56.25,\"height\":38.54166666666667,\"tabOrder\":12000}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"cursor7388722659061272.png\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 38.54,
+          "width": 56.25,
+          "x": 92.71,
+          "y": 681.25,
+          "z": 12000.00
+        },
+        {
+          "config": "{\"name\":\"c6e72b1f5e78a0fad3d8\",\"layouts\":[{\"id\":0,\"position\":{\"x\":525.2279635258359,\"y\":13.617021276595745,\"z\":1000,\"width\":300.5471124620061,\"height\":67.11246200607903,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"textSearchSlicerF85E2E78BE4A4D7D9F99ED75B5D71C85\",\"projections\":{\"fields\":[{\"queryRef\":\"goodreads_works.author\"},{\"queryRef\":\"goodreads_works.original_title\"},{\"queryRef\":\"goodreads_works.isbn\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"g\",\"Entity\":\"goodreads_works\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"g\"}},\"Property\":\"author\"},\"Name\":\"goodreads_works.author\",\"NativeReferenceName\":\"Author\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"g\"}},\"Property\":\"isbn\"},\"Name\":\"goodreads_works.isbn\",\"NativeReferenceName\":\"ISBN\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"g\"}},\"Property\":\"original_title\"},\"Name\":\"goodreads_works.original_title\",\"NativeReferenceName\":\"Title\"}]},\"columnProperties\":{\"goodreads_works.original_title\":{\"displayName\":\"Title\"},\"goodreads_works.author\":{\"displayName\":\"Author\"},\"goodreads_works.isbn\":{\"displayName\":\"ISBN\"}},\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 67.11,
+          "width": 300.55,
+          "x": 525.23,
+          "y": 13.62,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"effd6ebfeeed23ff2e67\",\"layouts\":[{\"id\":0,\"position\":{\"x\":12.644376899696049,\"y\":465.89665653495445,\"z\":11000,\"width\":197.4468085106383,\"height\":81.70212765957447,\"tabOrder\":11000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Genre.Genres\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"g\",\"Entity\":\"Genre\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"g\"}},\"Property\":\"Genres\"},\"Name\":\"Genre.Genres\",\"NativeReferenceName\":\"Genres\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"filter\":{\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"g\",\"Entity\":\"Genre\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"g\"}},\"Property\":\"Genres\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'biography'\"}}]]}}}]}}}}],\"header\":[{\"properties\":{\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Cambria'\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":3,\"Percent\":0}}}}}}}],\"items\":[{\"properties\":{\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Cambria'\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":3,\"Percent\":-0.5}}}}}}}],\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"titleWrap\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.2}}}}},\"width\":{\"expr\":{\"Literal\":{\"Value\":\"1D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 81.70,
+          "width": 197.45,
+          "x": 12.64,
+          "y": 465.90,
+          "z": 11000.00
+        },
+        {
+          "config": "{\"name\":\"f9550cdb142ee3e554a2\",\"layouts\":[{\"id\":0,\"position\":{\"x\":31.25,\"y\":653.125,\"z\":13000,\"width\":80.20833333333334,\"height\":54.16666666666667,\"tabOrder\":13000}}],\"singleVisual\":{\"visualType\":\"actionButton\",\"drillFilterOtherVisuals\":true,\"objects\":{\"icon\":[{\"properties\":{\"shapeType\":{\"expr\":{\"Literal\":{\"Value\":\"'blank'\"}}}},\"selector\":{\"id\":\"default\"}},{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"fill\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}},{\"properties\":{\"image\":{\"image\":{\"name\":{\"expr\":{\"Literal\":{\"Value\":\"'Facts1.png'\"}}},\"url\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"Facts1549778269996085.png\"}}},\"scaling\":{\"expr\":{\"Literal\":{\"Value\":\"'Fit'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"3D\"}}}},\"selector\":{\"id\":\"default\"}},{\"properties\":{\"image\":{\"image\":{\"name\":{\"expr\":{\"Literal\":{\"Value\":\"'Facts2.png'\"}}},\"url\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"Facts2008003211812735667.png\"}}},\"scaling\":{\"expr\":{\"Literal\":{\"Value\":\"'Fit'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}},\"selector\":{\"id\":\"hover\"}}],\"outline\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"visualLink\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"type\":{\"expr\":{\"Literal\":{\"Value\":\"'PageNavigation'\"}}},\"drillthroughSection\":{\"expr\":{\"Literal\":{\"Value\":\"'2178f0537894b36af445'\"}}},\"navigationSection\":{\"expr\":{\"Literal\":{\"Value\":\"'dba0cf7e19c30eeb60e1'\"}}},\"tooltip\":{\"expr\":{\"Literal\":{\"Value\":\"'Click to learn some fun facts about our collection!'\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 54.17,
+          "width": 80.21,
+          "x": 31.25,
+          "y": 653.13,
+          "z": 13000.00
+        },
+        {
+          "config": "{\"name\":\"ff1e71606ec09a0136f9\",\"layouts\":[{\"id\":0,\"position\":{\"x\":12.644376899696049,\"y\":188.69300911854103,\"z\":2000,\"width\":197.4468085106383,\"height\":80.72948328267478,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"goodreads_works.author\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"g\",\"Entity\":\"goodreads_works\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"g\"}},\"Property\":\"author\"},\"Name\":\"goodreads_works.author\",\"NativeReferenceName\":\"author\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"header\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Author'\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Cambria'\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":3,\"Percent\":0}}}}}}}],\"items\":[{\"properties\":{\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Cambria'\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":3,\"Percent\":-0.5}}}}}}}]},\"vcObjects\":{\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.2}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 80.73,
+          "width": 197.45,
+          "x": 12.64,
+          "y": 188.69,
+          "z": 2000.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{\"objects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":3,\"Percent\":-0.25}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"4D\"}}}}}]},\"visibility\":1,\"type\":1}",
+      "displayName": "Ratings",
+      "displayOption": 3,
+      "filters": "[{\"name\":\"Filter905793bce898e75d064b\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"goodreads_works\"}},\"Property\":\"work_id\"}},\"type\":\"Categorical\",\"howCreated\":5}]",
+      "height": 240.00,
+      "name": "7f1b88586ace516d0597",
+      "ordinal": 3,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"b25f86767c22dcb72e6e\",\"layouts\":[{\"id\":0,\"position\":{\"x\":37.5,\"y\":41.66666666666667,\"z\":0,\"width\":245.83333333333334,\"height\":156.25,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"pivotTable\",\"projections\":{\"Values\":[{\"queryRef\":\"Sum(goodreads_works.5_star_ratings)\"},{\"queryRef\":\"Sum(goodreads_works.4_star_ratings)\"},{\"queryRef\":\"Sum(goodreads_works.3_star_ratings)\"},{\"queryRef\":\"Sum(goodreads_works.2_star_ratings)\"},{\"queryRef\":\"Sum(goodreads_works.1_star_ratings)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"g\",\"Entity\":\"goodreads_works\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"g\"}},\"Property\":\"5_star_ratings\"}},\"Function\":0},\"Name\":\"Sum(goodreads_works.5_star_ratings)\",\"NativeReferenceName\":\"⭐⭐⭐⭐⭐\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"g\"}},\"Property\":\"4_star_ratings\"}},\"Function\":0},\"Name\":\"Sum(goodreads_works.4_star_ratings)\",\"NativeReferenceName\":\"⭐⭐⭐⭐\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"g\"}},\"Property\":\"3_star_ratings\"}},\"Function\":0},\"Name\":\"Sum(goodreads_works.3_star_ratings)\",\"NativeReferenceName\":\"⭐⭐⭐ \"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"g\"}},\"Property\":\"2_star_ratings\"}},\"Function\":0},\"Name\":\"Sum(goodreads_works.2_star_ratings)\",\"NativeReferenceName\":\"⭐⭐\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"g\"}},\"Property\":\"1_star_ratings\"}},\"Function\":0},\"Name\":\"Sum(goodreads_works.1_star_ratings)\",\"NativeReferenceName\":\"⭐ \"}]},\"columnProperties\":{\"Sum(goodreads_works.5_star_ratings)\":{\"displayName\":\"⭐⭐⭐⭐⭐\"},\"Sum(goodreads_works.3_star_ratings)\":{\"displayName\":\"⭐⭐⭐ \"},\"Sum(goodreads_works.4_star_ratings)\":{\"displayName\":\"⭐⭐⭐⭐\"},\"Sum(goodreads_works.2_star_ratings)\":{\"displayName\":\"⭐⭐\"},\"Sum(goodreads_works.1_star_ratings)\":{\"displayName\":\"⭐ \"}},\"drillFilterOtherVisuals\":true,\"objects\":{\"values\":[{\"properties\":{\"valuesOnRow\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"bandedRowHeaders\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"columnFormatting\":[{\"properties\":{\"backColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":3,\"Percent\":-0.25}}}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":6,\"Percent\":0.4}}}}}},\"selector\":{\"metadata\":\"Sum(goodreads_works.5_star_ratings)\"}},{\"properties\":{\"backColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":3,\"Percent\":-0.25}}}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":6,\"Percent\":0.4}}}}}},\"selector\":{\"metadata\":\"Sum(goodreads_works.4_star_ratings)\"}},{\"properties\":{\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":6,\"Percent\":0.4}}}}},\"backColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":3,\"Percent\":-0.25}}}}}},\"selector\":{\"metadata\":\"Sum(goodreads_works.3_star_ratings)\"}},{\"properties\":{\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":6,\"Percent\":0.4}}}}},\"backColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":3,\"Percent\":-0.25}}}}}},\"selector\":{\"metadata\":\"Sum(goodreads_works.2_star_ratings)\"}},{\"properties\":{\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":6,\"Percent\":0.4}}}}},\"backColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":3,\"Percent\":-0.25}}}}}},\"selector\":{\"metadata\":\"Sum(goodreads_works.1_star_ratings)\"}}],\"rowHeaders\":[{\"properties\":{\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":6,\"Percent\":0.4}}}}},\"backColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":3,\"Percent\":-0.25}}}}}}}],\"columnHeaders\":[{\"properties\":{\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":3,\"Percent\":-0.25}}}}},\"backColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":3,\"Percent\":-0.25}}}}}}}],\"grid\":[{\"properties\":{\"outlineColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":3,\"Percent\":-0.25}}}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":3,\"Percent\":-0.25}}}}}}}],\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Ratings'\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI'', wf_segoe-ui_normal, helvetica, arial, sans-serif'\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":6,\"Percent\":0.2}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 156.25,
+          "width": 245.83,
+          "x": 37.50,
+          "y": 41.67,
+          "z": 0.00
+        }
+      ],
+      "width": 320.00
+    },
+    {
+      "config": "{\"visibility\":1}",
+      "displayName": "Fun Facts",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "dba0cf7e19c30eeb60e1",
+      "ordinal": 2,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"002ab85b5ec4cf46f0cd\",\"layouts\":[{\"id\":0,\"position\":{\"x\":189.6656534954407,\"y\":491.18541033434633,\"z\":9000,\"width\":471.7325227963526,\"height\":35.98784194528876,\"tabOrder\":9000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"_Measures.Genrewithmostbooks\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"_\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Genre with most books\"},\"Name\":\"_Measures.Genrewithmostbooks\",\"NativeReferenceName\":\"Genre with most books\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"labels\":[{\"properties\":{\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI'', wf_segoe-ui_normal, helvetica, arial, sans-serif'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"15D\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":3,\"Percent\":-0.5}}}}}}}],\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"titleWrap\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}],\"border\":[{\"properties\":{\"width\":{\"expr\":{\"Literal\":{\"Value\":\"1D\"}}}}}]}}}",
+          "filters": "[{\"name\":\"Filter35aa6abab3696fb7d385\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"BooksGenres\"}},\"Property\":\"Genre\"}},\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"subquery\",\"Expression\":{\"Subquery\":{\"Query\":{\"Version\":2,\"From\":[{\"Name\":\"b\",\"Entity\":\"BooksGenres\",\"Type\":0},{\"Name\":\"_\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"b\"}},\"Property\":\"Genre\"},\"Name\":\"field\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Books per Genre\"}}}],\"Top\":1}}},\"Type\":2},{\"Name\":\"b\",\"Entity\":\"BooksGenres\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"b\"}},\"Property\":\"Genre\"}}],\"Table\":{\"SourceRef\":{\"Source\":\"subquery\"}}}}}]},\"type\":\"TopN\",\"howCreated\":1}]",
+          "height": 35.99,
+          "width": 471.73,
+          "x": 189.67,
+          "y": 491.19,
+          "z": 9000.00
+        },
+        {
+          "config": "{\"name\":\"41c8b68fbde092af23fe\",\"layouts\":[{\"id\":0,\"position\":{\"x\":189.66565349544075,\"y\":159.51367781155017,\"z\":4000,\"width\":899.6960486322189,\"height\":37.933130699088146,\"tabOrder\":4000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"_Measures.Oldest Published Book Title and Author\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"_\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Oldest Published Book Title and Author\"},\"Name\":\"_Measures.Oldest Published Book Title and Author\",\"NativeReferenceName\":\"Oldest Published Book Title and Author\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"labels\":[{\"properties\":{\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI'', wf_segoe-ui_normal, helvetica, arial, sans-serif'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"15D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 37.93,
+          "width": 899.70,
+          "x": 189.67,
+          "y": 159.51,
+          "z": 4000.00
+        },
+        {
+          "config": "{\"name\":\"441c4575b0dc53a666ec\",\"layouts\":[{\"id\":0,\"position\":{\"x\":189.66565349544075,\"y\":225.6534954407295,\"z\":5000,\"width\":874.4072948328268,\"height\":37.933130699088146,\"tabOrder\":5000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"_Measures.Book with Max Pages and Author\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"_\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Book with Max Pages and Author\"},\"Name\":\"_Measures.Book with Max Pages and Author\",\"NativeReferenceName\":\"Book with Max Pages and Author\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"labels\":[{\"properties\":{\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI'', wf_segoe-ui_normal, helvetica, arial, sans-serif'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"15D\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":3,\"Percent\":-0.5}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 37.93,
+          "width": 874.41,
+          "x": 189.67,
+          "y": 225.65,
+          "z": 5000.00
+        },
+        {
+          "config": "{\"name\":\"571e9c499dbb428f0f92\",\"layouts\":[{\"id\":0,\"position\":{\"x\":167.29483282674772,\"y\":0,\"z\":1000,\"width\":1085.471124620061,\"height\":150.7598784194529,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'line'\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"fill\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":6,\"Percent\":0.2}}}}}},\"selector\":{\"id\":\"default\"}}],\"outline\":[{\"properties\":{\"lineColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":6,\"Percent\":0.2}}}}}},\"selector\":{\"id\":\"default\"}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 150.76,
+          "width": 1085.47,
+          "x": 167.29,
+          "y": 0.00,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"59528b1223a8b000d050\",\"layouts\":[{\"id\":0,\"position\":{\"x\":491.1854103343465,\"y\":24.316109422492403,\"z\":2000,\"width\":296.65653495440733,\"height\":42.796352583586625,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Fun Facts about our collection\",\"textStyle\":{\"fontFamily\":\"Cambria\",\"fontSize\":\"16pt\",\"color\":\"#fe5f55\"}}]}]}}]}}}",
+          "filters": "[]",
+          "height": 42.80,
+          "width": 296.66,
+          "x": 491.19,
+          "y": 24.32,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"5d37f3a7ee8dd38c0504\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1133.130699088146,\"y\":16.534954407294833,\"z\":3000,\"width\":100.1823708206687,\"height\":50.577507598784194,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"actionButton\",\"drillFilterOtherVisuals\":true,\"objects\":{\"icon\":[{\"properties\":{\"shapeType\":{\"expr\":{\"Literal\":{\"Value\":\"'blank'\"}}}},\"selector\":{\"id\":\"default\"}}],\"fill\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}},{\"properties\":{\"image\":{\"image\":{\"name\":{\"expr\":{\"Literal\":{\"Value\":\"'Book_Home.png'\"}}},\"url\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"Book_Home3399197462713054.png\"}}},\"scaling\":{\"expr\":{\"Literal\":{\"Value\":\"'Fit'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"30D\"}}}},\"selector\":{\"id\":\"default\"}},{\"properties\":{\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}},\"selector\":{\"id\":\"hover\"}}],\"outline\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"visualLink\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"type\":{\"expr\":{\"Literal\":{\"Value\":\"'PageNavigation'\"}}},\"navigationSection\":{\"expr\":{\"Literal\":{\"Value\":\"'4df60ab1b2a0e9ac30b0'\"}}},\"tooltip\":{\"expr\":{\"Literal\":{\"Value\":\"'Help me find my next read!'\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 50.58,
+          "width": 100.18,
+          "x": 1133.13,
+          "y": 16.53,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"86af440e8b89a2441396\",\"layouts\":[{\"id\":0,\"position\":{\"x\":9.72644376899696,\"y\":0,\"z\":0,\"width\":167.29483282674772,\"height\":133.25227963525836,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"Facts4170670820316429.png\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 133.25,
+          "width": 167.29,
+          "x": 9.73,
+          "y": 0.00,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"ac2f4ed920c836a46e07\",\"layouts\":[{\"id\":0,\"position\":{\"x\":189.58333333333334,\"y\":291.6666666666667,\"z\":7000,\"width\":737.5,\"height\":38.54166666666667,\"tabOrder\":7000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"_Measures.Book with Max Rating Count\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"_\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Book with Max Rating Count\"},\"Name\":\"_Measures.Book with Max Rating Count\",\"NativeReferenceName\":\"Book with Max Rating Count\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"labels\":[{\"properties\":{\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI'', wf_segoe-ui_normal, helvetica, arial, sans-serif'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"15D\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":3,\"Percent\":-0.5}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 38.54,
+          "width": 737.50,
+          "x": 189.58,
+          "y": 291.67,
+          "z": 7000.00
+        },
+        {
+          "config": "{\"name\":\"e184a705725ee190d530\",\"layouts\":[{\"id\":0,\"position\":{\"x\":189.58333333333334,\"y\":359.375,\"z\":6000,\"width\":459.375,\"height\":37.5,\"tabOrder\":6000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"_Measures.Author with Most Books\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"_\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Author with Most Books\"},\"Name\":\"_Measures.Author with Most Books\",\"NativeReferenceName\":\"Author with Most Books\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"labels\":[{\"properties\":{\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI'', wf_segoe-ui_normal, helvetica, arial, sans-serif'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"15D\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":3,\"Percent\":-0.5}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 37.50,
+          "width": 459.38,
+          "x": 189.58,
+          "y": 359.38,
+          "z": 6000.00
+        },
+        {
+          "config": "{\"name\":\"fc2f640d2b479e1a910e\",\"layouts\":[{\"id\":0,\"position\":{\"x\":189.66565349544075,\"y\":423.1003039513678,\"z\":8000,\"width\":558.2978723404256,\"height\":37.933130699088146,\"tabOrder\":8000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"_Measures.Year with Most Books Published\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"_\",\"Entity\":\"_Measures\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Year with Most Books Published\"},\"Name\":\"_Measures.Year with Most Books Published\",\"NativeReferenceName\":\"Year with Most Books Published\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"categoryLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"labels\":[{\"properties\":{\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI'', wf_segoe-ui_normal, helvetica, arial, sans-serif'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"15D\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":3,\"Percent\":-0.5}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 37.93,
+          "width": 558.30,
+          "x": 189.67,
+          "y": 423.10,
+          "z": 8000.00
+        }
+      ],
+      "width": 1280.00
+    }
+  ],
+  "theme": "Custom34908032770654507.json"
+}
