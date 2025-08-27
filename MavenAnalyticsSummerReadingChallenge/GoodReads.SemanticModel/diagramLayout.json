@@ -1,0 +1,113 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 0,
+        "y": 0
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 358,
+            "y": 0
+          },
+          "nodeIndex": "goodreads_works",
+          "nodeLineageTag": "0be068ee-1c68-4005-8f66-39898576e56e",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 1
+        },
+        {
+          "location": {
+            "x": 372,
+            "y": 401
+          },
+          "nodeIndex": "goodreads_reviews",
+          "nodeLineageTag": "3e22d5ca-4f35-4d09-bbe1-3a3f5b0a2094",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 2
+        },
+        {
+          "location": {
+            "x": 640,
+            "y": 0
+          },
+          "nodeIndex": "_Measures",
+          "nodeLineageTag": "09d805b4-27fb-4a56-94c9-e0eefefebe09",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 3
+        },
+        {
+          "location": {
+            "x": 8,
+            "y": 377
+          },
+          "nodeIndex": "SimilarBooks",
+          "nodeLineageTag": "37706047-7a45-4202-ad90-e5e76b5d69b2",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 8
+        },
+        {
+          "location": {
+            "x": 901,
+            "y": 0
+          },
+          "nodeIndex": "Genre",
+          "nodeLineageTag": "d481e105-16bc-4d78-86b6-6ac06a2b32b1",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 4
+        },
+        {
+          "location": {
+            "x": 674,
+            "y": 409.5
+          },
+          "nodeIndex": "BooksGenres",
+          "nodeLineageTag": "1d6a723a-b248-4f75-a8d2-82bac7c75997",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 5
+        },
+        {
+          "location": {
+            "x": 0,
+            "y": 0
+          },
+          "nodeIndex": "Year",
+          "nodeLineageTag": "64bda076-549c-4514-b941-ba900b76bab5",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 6
+        }
+      ],
+      "name": "All tables",
+      "zoomValue": 100,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "All tables",
+  "defaultDiagram": "All tables"
+}

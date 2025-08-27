@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "GoodReads"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "f8cffa80-28e2-46ee-9d7b-7bd0a4402370"
+  }
+}
